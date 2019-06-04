@@ -1,0 +1,6 @@
+1860 = Ancho
+402 = Alto
+
+Cada Frame/ frames en total
+620 = Ancho
+134 = Alto

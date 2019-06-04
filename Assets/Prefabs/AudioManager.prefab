@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5565099951224384054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5548499292242311041}
+  - component: {fileID: 1338439720422366187}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5548499292242311041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565099951224384054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 938.3586, y: 672.7207, z: -4.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1338439720422366187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565099951224384054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a1d911f15fc65e4d9c8cfceb6f9c694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - Name: Marcha
+    clip: {fileID: 8300000, guid: f0209308f0a077b43b1fff703b1ff3c2, type: 3}
+    volume: 0.292
+    pitch: 1
+    loop: 1
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Grillos
+    clip: {fileID: 8300000, guid: 074f15eb5e8f35e43a226dc17487a62b, type: 3}
+    volume: 0.192
+    pitch: 1
+    loop: 1
+    mute: 0
+    _source: {fileID: 0}
+  - Name: ButtonIn
+    clip: {fileID: 8300000, guid: 3e95ac8092f04cb47b096802e647fd44, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: ButtonOut
+    clip: {fileID: 8300000, guid: 842b6487fcd156742ace5d845312a94d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: IntroGameEff
+    clip: {fileID: 8300000, guid: d16b8e60bb32ca34f95467526b53eca9, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Auch
+    clip: {fileID: 8300000, guid: 77de1416546a1834c94ef3e24a5a422f, type: 3}
+    volume: 0.414
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Blablabla
+    clip: {fileID: 8300000, guid: d8373ecd9f796a04ea0f8f48dadfafa6, type: 3}
+    volume: 0.333
+    pitch: 1
+    loop: 1
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Bla_callado
+    clip: {fileID: 8300000, guid: 42d40d6d5bb8ac9488cd7c1155a05c97, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: CerdoFinal
+    clip: {fileID: 8300000, guid: 523d796d2bbf7e846aeb73a052d5153d, type: 3}
+    volume: 0.059
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: CerdoTap
+    clip: {fileID: 8300000, guid: e8456ab3bedde354b9cc2aca2aaf6488, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: UribeDinero
+    clip: {fileID: 8300000, guid: be6e6adead6984548b8edc56f5205412, type: 3}
+    volume: 0.482
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: UribeMosco
+    clip: {fileID: 8300000, guid: 42edcfa410edd734f8c4f92be09274c3, type: 3}
+    volume: 0.957
+    pitch: 1
+    loop: 1
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Inhala
+    clip: {fileID: 8300000, guid: eb8c72eff83733b4794520fe2c057f4c, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Exhala
+    clip: {fileID: 8300000, guid: bbb0d5e326091224fa4a4066407be144, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: MasRapidoCabron
+    clip: {fileID: 8300000, guid: c7b5ea2c5097d0b409e0bfd91f2b15ed, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Colecionables
+    clip: {fileID: 8300000, guid: 1d36114e3ebc2f94a9c420ff4181ccb8, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Correcto
+    clip: {fileID: 8300000, guid: 304b05b17d277524a8e7c40f936b2248, type: 3}
+    volume: 0.647
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Incorrecto
+    clip: {fileID: 8300000, guid: f344dad3437a52b4a84102fa20ee3e99, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Disparo
+    clip: {fileID: 8300000, guid: 40df1ace38fc0df4fb355f2a672d1dea, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Pasos
+    clip: {fileID: 8300000, guid: 366c6d313aaca0640a18415a6c1c2331, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  Playing: 0
